@@ -3,6 +3,7 @@
 React tools for more dynamic components.
 
 - [addPropsToChildren](#addpropstochildren)
+- [dynamicRef](#dynamicref)
 
 ## addPropsToChildren
 
