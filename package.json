@@ -1,0 +1,29 @@
+{
+  "name": "@anovel/reactor",
+  "version": "0.1.0",
+  "description": "React tools for more dynamic components",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.5"
+  },
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-novel/reactor.git"
+  },
+  "author": "kushuh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-novel/reactor/issues"
+  },
+  "keywords": ["React"],
+  "homepage": "https://github.com/a-novel/reactor#readme",
+  "dependencies": {
+    "react": "^16.13.1"
+  }
+}
