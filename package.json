@@ -1,7 +1,7 @@
 {
   "name": "@anovel/reactor",
-  "version": "0.2.0",
-  "description": "React tools for more dynamic components",
+  "version": "0.2.1",
+  "description": "React tools for more dynamic components.",
   "main": "lib/index.js",
   "devDependencies": {
     "@babel/cli": "^7.0.0",
