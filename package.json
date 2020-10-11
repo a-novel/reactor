@@ -1,20 +1,29 @@
 {
   "name": "@anovel/reactor",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "React tools for more dynamic components.",
   "main": "lib/index.js",
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
-    "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "@jest/globals": "^26.5.2",
+    "babel-jest": "^26.5.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "jest": "^26.5.2",
+    "jsdom": "^16.4.0",
+    "react-test-renderer": "^16.13.1",
     "rollup": "^2.29.0",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0"
   },
   "scripts": {
-    "build": "rm -rf ./lib && rollup -c"
+    "build": "rollup -c",
+    "build:publish": "yarn build && yarn publish",
+    "test": "jest --watchAll --coverage --coverageDirectory=./coverage/jest"
   },
   "repository": {
     "type": "git",
@@ -30,6 +39,7 @@
   ],
   "homepage": "https://github.com/a-novel/reactor#readme",
   "dependencies": {
-    "react": "^16.13.1"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }

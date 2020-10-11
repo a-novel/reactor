@@ -1,7 +1,3 @@
 {
-  "presets": ["@babel/preset-env"],
-  "plugins": [
-    ["@babel/plugin-proposal-class-properties", { "loose": true }],
-    "@babel/plugin-transform-classes"
-  ]
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
 }
