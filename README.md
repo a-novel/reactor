@@ -82,11 +82,16 @@ import React from 'react';
 import {dynamicRef} from '@anovel/reactor';
 
 class MyComponent extends React.Component {
-  ref = dynamicRef(this.props.innerRef);
+  constructor(props) {
+    super(props);
+    // Get the ref from props.innerRef and assign it to this.divRef.
+    // If no ref was send from parent, create a local reference.
+    dynamicRef.bind(this)(this.props.innerRef, 'divRef');
+  }
 
   render(){
     return (
-      <div ref={this.ref}>
+      <div ref={this.divRef}>
       
       </div>
     );
