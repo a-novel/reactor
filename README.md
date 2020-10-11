@@ -1,5 +1,23 @@
 # Reactor
 
+<div align="center">
+    <a href="https://www.npmjs.com/package/@anovel/reactor">
+        <img alt="npm (scoped)" src="https://img.shields.io/npm/v/@anovel/reactor?style=for-the-badge">
+    </a>
+    <a href="https://github.com/a-novel/reactor/blob/master/LICENSE">    
+        <img alt="GitHub" src="https://img.shields.io/github/license/a-novel/reactor?style=for-the-badge">
+    </a>
+</div>
+
+<div align="center">
+    <a href="https://codecov.io/gh/a-novel/reactor">
+        <img alt="Codecov" src="https://img.shields.io/codecov/c/github/a-novel/reactor?style=flat-square">
+    </a>
+    <img alt="David" src="https://img.shields.io/david/dev/a-novel/reactor?style=flat-square">
+    <img alt="npm bundle size (scoped)" src="https://img.shields.io/bundlephobia/min/@anovel/reactor?style=flat-square">
+</div>
+<br/>
+
 React tools for more dynamic components.
 
 - [addPropsToChildren](#addpropstochildren)
