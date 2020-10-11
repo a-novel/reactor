@@ -24,7 +24,8 @@
   "scripts": {
     "build": "rollup -c",
     "build:publish": "yarn build && yarn publish",
-    "test": "jest --watchAll --coverage --coverageDirectory=./coverage/jest"
+    "test": "jest --watchAll --coverage --coverageDirectory=./coverage/jest",
+    "coverage:upload": "./node_modules/.bin/codecov --token='9a4bfb60-86ec-402c-85ee-e96628011f34'"
   },
   "repository": {
     "type": "git",
