@@ -1,6 +1,6 @@
 {
   "name": "@anovel/reactor",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "React tools for more dynamic components.",
   "main": "lib/index.js",
   "devDependencies": {
